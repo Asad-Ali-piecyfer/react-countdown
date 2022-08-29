@@ -160,6 +160,7 @@ export default class Countdown extends React.Component<CountdownProps, Countdown
 
     this.mounted = false;
     this.clearTimer();
+    this.pause();
   }
 
   tick = (): void => {
